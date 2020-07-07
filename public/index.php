@@ -1,9 +1,11 @@
 <?php
 
+use ishop\App;
+
 include_once dirname(__DIR__) . "/config/init.php";
 include_once LIBS . "/functions.php";
 
 
-new \ishop\App();
+new App();
 
-debug(\ishop\App::$app->getProperties());
+//throw new Exception("Страница не найдена1", 404);
