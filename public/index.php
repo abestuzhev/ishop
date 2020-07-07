@@ -8,4 +8,4 @@ include_once LIBS . "/functions.php";
 
 new App();
 
-//throw new Exception("Страница не найдена1", 404);
+//throw new Exception('Страница не найдена!!!', 500);
